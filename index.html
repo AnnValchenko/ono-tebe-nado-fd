@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="header content">
+    <header class="header">
       <nav class="header__menu">
         <ul class="header__links-list">
           <li class="header__links-list-item header__links-list-item_no-bullit header__link_active">
@@ -37,13 +37,24 @@
         <p class="address__link">наб. Принсенграхт 263-<br>265, Амстердам</p>
       </address>
     </header>
-    <main class="content">
-      <section class="cover content">
-        
+    <main>
+      <section class="cover">
+        <div class="overlay"></div>
+        <h1 class="cover__title">
+          <span class="accent__span">оно</span>
+          <span class="accent__span align__text_center">теб<span class="letter__spacing">е</span></span>
+          <span class="accent__span align__text_right">над<span class="letter__spacing">о</span></span>
+        </h1>
+        <div class="cover__description">
+          <p class="cover__description-text">
+            Аукцион вещей, в которые никто не верил
+          </p>
+          <button class="button">Сделать ставку</button>
+        </div>
       </section>
-      <section class="lots content"></section>
-      <section class="about content"></section>
+      <section class="lots"></section>
+      <section class="about"></section>
     </main>
-    <footer class="footer content"></footer>
+    <footer class="footer"></footer>
   </body>
 </html>
