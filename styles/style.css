@@ -32,6 +32,7 @@
   color: #000;
   font-weight: 400;
   font-size: 18px;
+  /*text-decoration-skip-ink: none;*/
   text-underline-offset: 4px;
 }
 
@@ -106,10 +107,10 @@
 }
 
 .cover__description{
-  padding: 106px 50px 50px 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 106px 50px 50px 50px;
 }
 
 .cover__description-text{
@@ -125,13 +126,62 @@
 
 .button {
   position:relative;
-  font-weight: 500;
-  font-size: 22px;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  background: transparent;
-  border: 1px solid #fff;
   width: 256px;
   height: 51px;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 500;
+  font-size: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+.lots {
+  margin: 180px 24px 120px;
+}
+
+.lots__heading {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #000;
+  margin-left: 40px;
+}
+
+.lots__card-list-item {
+  list-style: none;
+  width: 334px;
+  height: 596px;
+  margin: 27px 0 30px 24px;
+}
+
+.card__link {
+  text-decoration: none;
+}
+
+.card__film {
+  background-image: url(/images/card-lot-01.jpg);
+  background-position: center;
+  width: 334px;
+  height: 596px;
+}
+
+.card__title {
+ /* margin: 48px 40px 274px;*/
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  /*color: #fff;*/
+}
+
+.card__text {
+  width: 254px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  /*color: #fff;*/
 }
